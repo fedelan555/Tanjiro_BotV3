@@ -49,14 +49,14 @@ global.author = `
 ⇝ ⏰ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}
 ♾━━━━━━━━━━━━━━━♾`;
 
-global.wm = '𝑩𝒍𝒂𝒄𝒌 𝑪𝒍𝒐𝒗𝒆𝒓 ☘';
-global.titulowm = '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘';
-global.igfg = 'ᥫ𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
-global.botname = '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ the Legends ⚡'
-global.textbot = '𝑩𝑳𝑨𝑪𝑲 𝑪𝑳𝑶𝑽𝑬𝑹  : 𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
-global.gt = '͟͞𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘͟͞';
-global.namechannel = '𝑩𝑳𝑨𝑪𝑲 𝑪𝑳𝑶𝑽𝑬𝑹 / 𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
+global.wm = '𝗍ᥲᥒȷіr᥆_ᥲᥣ ⚔';
+global.titulowm = 'ꜱᴛᴀʀʟɪɢʜᴛ ᴄʀᴇᴡ ☘';
+global.igfg = 'ᥫfedexyz ⚔'
+global.botname = '𝗍ᥲᥒȷіr᥆_ᥲᥣ ☘'
+global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ fedexyz ⚔'
+global.textbot = '𝗍ᥲᥒȷіr᥆_ᥲᥣ  : fedexyz'
+global.gt = '⚔ ꜱᴛᴀʀʟɪɢʜᴛ ᴄʀᴇᴡ ⚔';
+global.namechannel = '𝗍ᥲᥒȷіr᥆_ᥲᥣ / 𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
 
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
