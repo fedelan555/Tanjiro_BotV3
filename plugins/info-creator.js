@@ -37,7 +37,6 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 
     // Texto personalizado para el reply
     const dev = `Desarrollador: ${ownerName}`;
-    const txt = `⚔ creador del bot: ${ownerName}\n📞 Número: +${ownerNumber}`;
 
     await conn.sendMessage(m.chat, {
         contacts: {
