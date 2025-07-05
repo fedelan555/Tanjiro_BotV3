@@ -3,8 +3,6 @@ import { sticker } from '../lib/sticker.js'
 //import uploadImage from '../lib/uploadImage.js'
 //import { webp2png } from '../lib/webp2mp4.js'
 
-let handler = async (m, { conn, args, usedPrefix, command }) => {
-
 let stiker = false
 try {
 let q = m.quoted ? m.quoted : m
@@ -13,7 +11,7 @@ if (/webp|image|video/g.test(mime)) {
 if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return m.reply(`🥷 *¡El video no puede durar mas de 8 segundos!*`)
 let img = await q.download?.()
 
-if (!img) return conn.reply(m.chat, `👻 *! La conversación no pudo completarse. Por favor, envía primero una imagen, video o gif, y luego utiliza el comando nuevamente"
+if (!img) return conn.reply(m.chat, `👻 *! La conversación no pudo completarse. Por favor, envía primero una imagen, video o gif, y luego utiliza el comando nuevamente._*`, m, rcanal)
 
 let out
 try {
@@ -40,7 +38,7 @@ if (!stiker) stiker = e
 } finally {
 if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: `⏤͟͞ू⃪black-clover࿐`, mediaType: 2, sourceUrl: redes, thumbnail: icons}}}, { quoted: m })
 
-else return conn.reply(m.chat, '👻 *! La conversión no pudo completarse. Por favor, envía primero una imagen, video o gif, y luego utiliza el comando nuevamente._*',
+else return conn.reply(m.chat, '👻 *! La conversión no pudo completarse. Por favor, envía primero una imagen, video o gif, y luego utiliza el comando nuevamente._*', m, rcanal)
 
 
 }}
