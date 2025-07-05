@@ -56,7 +56,7 @@ global.botname = '𝗍ᥲᥒȷіr᥆_ᥲᥣ ☘'
 global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ fedexyz ⚔'
 global.textbot = '𝗍ᥲᥒȷіr᥆_ᥲᥣ  : fedexyz'
 global.gt = '⚔ ꜱᴛᴀʀʟɪɢʜᴛ ᴄʀᴇᴡ ⚔';
-global.namechannel = '𝗍ᥲᥒȷіr᥆_ᥲᥣ / 𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
+global.namechannel = '𝗍ᥲᥒȷіr᥆_ᥲᥣ / fede'
 
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
@@ -78,7 +78,7 @@ global.cn ='https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w';
 global.catalogo = fs.readFileSync('./src/catalogo.jpg');
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: packname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 global.ch = {
-ch1: '120363307694217288@newsletter',
+ch1: '120363420017244077@newsletter',
 }
 global.multiplier = 70
 
