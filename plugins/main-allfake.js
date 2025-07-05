@@ -31,15 +31,15 @@ console.log(`Error : ${e}`)
 global.creador = 'Wa.me/525544876071'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/525544876071'
-global.namechannel = '⏤͟͞㋡ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 '
-global.namegrupo = ' 𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘︎'
-global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 ⏤͟͞ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 '
+global.namechannel = '⏤͟͞ fede '
+global.namegrupo = ' 𝗍ᥲᥒȷіr᥆_ᥲᥣ ⚔'
+global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 ⏤͟͞ fede '
 global.listo = '⚔️ *Aquí tienes perra*'
 
 //Ids channel
-global.idchannel = '120363307694217288@newsletter'
-global.canalIdM = ["120363307694217288@newsletter", "120363307694217288@newsletter"]
-global.canalNombreM = ["⏤͟͞㋡ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 ", "㋡ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 "]
+global.idchannel = '120363420017244077@newsletter'
+global.canalIdM = ["120363420017244077@newsletter", "120363420017244077@newsletter"]
+global.canalNombreM = ["⏤͟͞ 𝗍ᥲᥒȷіr᥆_ᥲᥣ ", "⚔ 𝗍ᥲᥒȷіr᥆_ᥲᥣ "]
 global.channelRD = await getRandomChannel()
 
 global.d = new Date(new Date + 3600000)
@@ -96,8 +96,8 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [
-'https://qu.ax/oLwYh.jpg',
-'https://qu.ax/rtCcd.jpg'
+'https://files.catbox.moe/do8ghk.jpg',
+'https://files.catbox.moe/7z2ayh.jpg'
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: packname, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
