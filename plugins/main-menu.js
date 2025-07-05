@@ -17,31 +17,25 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `⚠️ 𝗔𝗟𝗘𝗥𝗧𝗔 𝗗𝗘 𝗦𝗜𝗦𝗧𝗘𝗠𝗔 ⚠️ 
-┃ ⛧ 𝙸𝙽𝙸𝙲𝙸𝙰𝙽𝙳𝙾: 𝙱𝙻𝙲-𝚂𝚈𝚂.exe
-┃ ⛧ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾: %name
-┃ ⛧ 𝙼𝙾𝙳𝙾: %mode
-┃ ⛧ 𝙴𝚂𝚃𝙰𝙳𝙾:  𝗢𝗡𝗟𝗜𝗡𝗘 👻
-╚══⫷🔻𝙽𝙴𝚃𝚁𝚄𝙽𝙽𝙴𝚁🔻⫸══╝
+  before: `*ㅤ︵⏜ᩨ︵  ⋱   ⁝  ⋰  ︵ᩨ⏜︵*
 
-╭─[𝗘𝗦𝗧𝗔𝗗𝗢 𝗗𝗘 𝗨𝗦𝗨𝗔𝗥𝗜𝗢]─╮
-│ 📊 𝗡𝗜𝗩𝗘𝗟: %level
-│ ⚡ 𝗘𝗫𝗣: %exp / %maxexp
-│ 🧮 𝗨𝗦𝗨𝗔𝗥𝗜𝗢𝗦: %totalreg
-│ ⏱ 𝗧𝗜𝗘𝗠𝗣𝗢 𝗔𝗖𝗧𝗜𝗩𝗢: %muptime
-╰──────────────────╯
+ര ׄ🍀ʜᴏʟᴀ: *%name* *ʙɪᴇɴᴠᴇɴɪᴅᴏ/ᴀ
+ര ׄ🍀ʙᴏᴛ ᴏꜰᴄ: *ᴛᴀɴᴊɪʀᴏ ʙᴏᴛ*
 
-🧬 *𝗡𝗢𝗗𝗢 𝗛𝗔𝗖𝗞 𝗔𝗖𝗧𝗜𝗩𝗔𝗗𝗢*
-✦ Elige un comando para ejecutar protocolo.
-✦ Operador: *The Carlos 👑*
-
+╭─❏ *INFO - BOT* ❏
+💖 ᩚ꤬ᰨ *Cliente:* %name
+💖 ᩚ꤬ᰨ *Modo:* Público
+💖 ᩚ꤬ᰨ *Baileys:* Multi Device
+💖 ᩚ꤬ᰨ *Tiempo Activo:* %muptime
+💖 ᩚ꤬ᰨ *Usuarios:* %totalreg 
+╰─────❏
 %readmore
 `.trimStart(),
-
-  header: '\n╭─〔 🦠 %category 〕─╮',
-  body: '│ ⚙️ %cmd\n',
-  footer: '╰────────────────╯',
-  after: '\n⌬ 𝗖𝗬𝗕𝗘𝗥 𝗠𝗘𝗡𝗨 ☠️ - Sistema ejecutado con éxito.'
+  
+  header: '\n╭─────── %category ──────',
+  body: 'ര ׄ 🍒 %cmd\n',
+  footer: '╰─────────────────╯',
+  after: '\n⚔USA UNOS DE ESTOS BOTONES⚔'
 }
 
 let handler = async (m, { conn, usedPrefix: _p }) => {
@@ -101,17 +95,11 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     let text = _text.replace(/%(\w+)/g, (_, key) => replace[key] || '')
 
     await conn.sendMessage(m.chat, {
-    text: `⌬ 📡 ᴄʏʙᴇʀ ᴍᴇɴᴜ sʏsᴛᴇᴍ ɪɴɪᴄɪᴀɴᴅᴏ...\n⚙️ Cargando comandos...`,
-      mentions: [m.sender]
-    }, { quoted: m })
-
-    await conn.sendMessage(m.chat, {
-      image: { url: 'https://qu.ax/BjDPn.jpg' },
+      image: { url: 'https://files.catbox.moe/7qo46s.jpg' },
       caption: text,
-      footer: '🧠 BLACK CLOVER SYSTEM ☘️',
       buttons: [
-        { buttonId: `${_p}menurpg`, buttonText: { displayText: '🏛️ M E N U R P G' }, type: 1 },
-        { buttonId: `${_p}code`, buttonText: { displayText: '🕹 ＳＥＲＢＯＴ' }, type: 1 }
+        { buttonId: `${_p}owner`, buttonText: { displayText: '👑 OWNER' }, type: 1 },
+        { buttonId: `${_p}reg soygay.555`, buttonText: { displayText: '👻 AUTO VERIFICAR' }, type: 1 }
       ],
       viewOnce: true
     }, { quoted: m })
@@ -133,4 +121,4 @@ function clockString(ms) {
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
   return [h, m, s].map(v => v.toString().padStart(2, '0')).join(':')
-}
+      }
